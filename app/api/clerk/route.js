@@ -13,7 +13,7 @@ export async function POST(req){
         "svix-signature": headerPayload.get("svix-signature"),
     };
 
-    // get payload and vefiry
+    // get payload and vefiry "i have fixed the database at symbol"
 
     const payload = await req.json();
     const body = JSON.stringify(payload);
