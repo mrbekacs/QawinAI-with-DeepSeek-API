@@ -25,7 +25,7 @@ export async function POST(req){
         _id: data.id,
         email: data.email_addresses[0].email_address,
         name: `${data.first_name} ${data.last_name}`,
-        imae: data.image_url,
+        image: data.image_url,
     };
 
     await connectDB();
