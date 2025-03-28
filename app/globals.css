@@ -8,6 +8,20 @@ html {
   @apply scroll-smooth;
 }
 
-::-webkit-scroolbar {
+::-webkit-scrollbar {
   display: none;
+}
+.loader div:nth-child(2){
+  animation-delay: 0.2s;
+}
+.loader div:nth-child(2){
+  animation-delay: 0.4s;
+}
+
+code {
+  white-space: pre-wrap !important;
+}
+
+pre {
+  border-radius: 10px !important;
 }
