@@ -45,10 +45,10 @@ export default function Home() {
           {messages.length === 0 ? (
             <>
             <div className="flex items-center gap-3">
-              <Image src={assets.logo_icon} alt="" className="h-16"/>
-              <p className="text-2xl font-medium">Hi, I'm Qawin.</p>
+              <Image src={assets.logo_icon} alt="" className="h-8 w-8"/>
+              <p className="text-2xl font-medium">Sálem. Bul men, QawınAI !</p>
             </div>
-            <p className="text-sm mt-2">How can I help you today?</p>
+            <p className="text-sm mt-2">Búgin qanday járdem bere alaman?</p>
             </>
             ):
             (
@@ -75,7 +75,7 @@ export default function Home() {
           }
           {/* prompt box */}
           <PromptBox isLoading={isLoading} setIsLoading={setIsLoading}/>
-          <p className="text-xs absolute bottom-1 text-gray-500">AI-generated, for reference only</p>
+          <p className="text-xs absolute bottom-1 text-gray-500">Jasalma iltellekt járdeminde jaratıldı. Tuwrıdan tuwrı kóshirme, uyat boladı!</p>
 
         </div>
       </div>
