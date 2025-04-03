@@ -49,6 +49,7 @@ export default function Home() {
               <p className="text-2xl font-medium">Sálem. Bul men, QawınAI !</p>
             </div>
             <p className="text-sm mt-2">Búgin qanday járdem bere alaman?</p>
+            <p className="text-xs mt-3 text-gray-500">(Some features are still under development!)</p>
             </>
             ):
             (
